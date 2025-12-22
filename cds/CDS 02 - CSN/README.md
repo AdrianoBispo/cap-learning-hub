@@ -1,2 +1,0 @@
-# Core Schema Notation (CSN)
-
