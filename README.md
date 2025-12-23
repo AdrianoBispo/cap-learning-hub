@@ -1,5 +1,19 @@
 # Guia de Estudos SAP CAP com Nodejs
-Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP utilizando o Node.js
+Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP utilizando o Node.js.
+
+## Estrutura do Repositório
+
+Abaixo está o guia de navegação do nosso projeto:
+
+1.  **[Fundamentos e Modelagem](./01-fundamentos-e-modelagem/README.md)**: O coração do CAP. Tudo começa com CDS (Core Data Services), CDL e CSN.
+2.  **[Runtime Node.js Core](./02-runtime-nodejs-core/README.md)**: Como o servidor `cds.server` funciona, o ciclo de vida de eventos e a injeção de lógica customizada via Handlers.
+3.  **[Dados e Persistência](./03-dados-e-persistencia/README.md)**: O poder do CQL, CQN e a interação com bancos de dados (HANA, SQLite) através de `cds.db`.
+4.  **[Interface de Usuário](./04-interface-usuario/README.md)**: Construção de UIs Fiori Elements dirigidas por anotações e gestão de Rascunhos (Drafts).
+5.  **[Integrações e Mensageria](./05-integracoes-e-mensageria/README.md)**: Conectando-se a serviços remotos (S/4HANA) e arquitetura orientada a eventos.
+6.  **[Segurança e Compliance](./06-seguranca-e-compliance/README.md)**: Autenticação, Autorização e Log de Auditoria automatizado.
+7.  **[Arquitetura Avançada](./07-arquitetura-avancada/README.md)**: Multitenancy (SaaS) e Extensibilidade via Plugins.
+8.  **[Operações, DevOps e Qualidade](./08-operacoes-devops-qualidade/README.md)**: Do `cds watch` à produção, testes automatizados e observabilidade.
+
 
 ## Links
 - [Capire - Documentação Oficial da SAP CAP](https://cap.cloud.sap/docs/)
