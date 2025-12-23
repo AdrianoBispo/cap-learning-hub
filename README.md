@@ -1,5 +1,5 @@
-# Guia de Estudos SAP CAP
-Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP.
+# Guia de Estudos SAP CAP com Nodejs
+Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP utilizando o Node.js
 
 ## Links
 - [Capire - Documentação Oficial da SAP CAP](https://cap.cloud.sap/docs/)
@@ -10,6 +10,4 @@ Este repositório tem como objetivo guiar devs iniciantes e devs mais experiente
 - [Turorial SAP - Como Criar uma Aplicação SAP CAP Full Stack utilizando o BAS, Nodejs e Banco Hana](https://developers.sap.com/mission.hana-cloud-cap.html)
 - [Tutorial SAP - Desenvolva um aplicativo Node.js no SAP BTP Kyma Runtime](https://developers.sap.com/mission.cp-kyma-node-js.html)
 - [Tutorial SAP - Crie um aplicativo com Cloud Foundry Node.js Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-node-create.html)
-- [Tutorial SAP - Crie um aplicativo comercial usando CAP para Java](https://developers.sap.com/mission.cap-java-app.html)
-- [Tutorial SAP - Crie um aplicativo com SAP Java Buildpack 2]()
 - [Tutorial SAP - Como desenvolver um App de Mensagens dentro do SAP BTP utilizando o Nodejs ou Java](https://developers.sap.com/mission.cp-enterprisemessaging-app-develop.html)
