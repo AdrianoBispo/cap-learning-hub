@@ -1,4 +1,6 @@
-# Módulo 4: Interfaces de Usuário com Fiori Elements
+# Módulo 4: Interfaces de Usuário com Fiori Elements e Gestão de Rascunhos (Drafts)
+
+![Infografico - Fiori Elements e Gestão de Rascunhos(Drafts)](./Infograficos/04.01.01_Fiori_Elements_Metadados.png)
 
 Este módulo conecta o backend com o frontend, demonstrando um dos recursos mais poderosos do SAP CAP: a capacidade de gerar interfaces de usuário ricas e responsivas diretamente a partir dos seus modelos de dados.
 
