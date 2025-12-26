@@ -1,18 +1,23 @@
-# Guia de Estudos SAP CAP com Nodejs
-Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP utilizando o Node.js.
+![Infografico - Guia Rapido de Desenvolvimento SAP CAP (Node.js)](./02-runtime-nodejs-core/Infograficos/02.03.01_Nodejs_SDK_Deep_Dive.png)
+
+> **Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP utilizando o Node.js.**
+
+
 
 ## Estrutura do Repositório
 
 Abaixo está o guia de navegação do nosso projeto:
 
-1.  **[Fundamentos e Modelagem](./01-fundamentos-e-modelagem/README.md)**: O coração do CAP. Tudo começa com CDS (Core Data Services), CDL e CSN.
-2.  **[Runtime Node.js Core](./02-runtime-nodejs-core/README.md)**: Como o servidor `cds.server` funciona, o ciclo de vida de eventos e a injeção de lógica customizada via Handlers.
-3.  **[Dados e Persistência](./03-dados-e-persistencia/README.md)**: O poder do CQL, CQN e a interação com bancos de dados (HANA, SQLite) através de `cds.db`.
-4.  **[Interface de Usuário](./04-interface-usuario/README.md)**: Construção de UIs Fiori Elements dirigidas por anotações e gestão de Rascunhos (Drafts).
-5.  **[Integrações e Mensageria](./05-integracoes-e-mensageria/README.md)**: Conectando-se a serviços remotos (S/4HANA) e arquitetura orientada a eventos.
-6.  **[Segurança e Compliance](./06-seguranca-e-compliance/README.md)**: Autenticação, Autorização e Log de Auditoria automatizado.
-7.  **[Arquitetura Avançada](./07-arquitetura-avancada/README.md)**: Multitenancy (SaaS) e Extensibilidade via Plugins.
-8.  **[Operações, DevOps e Qualidade](./08-operacoes-devops-qualidade/README.md)**: Do `cds watch` à produção, testes automatizados e observabilidade.
+| Diretório | Descrição |
+| :--- | :--- |
+| **[01. Fundamentos e Modelagem](./01-fundamentos-e-modelagem/)** | A base de tudo: Filosofia do CAP, CDL, CSN e o sistema de compiladores. |
+| **[02. Runtime Node.js Core](./02-runtime-nodejs-core/)** | O coração da aplicação: Bootstrap do servidor, Event Handlers e TypeScript. |
+| **[03. Dados e Persistência](./03-dados-e-persistencia/)** | Consultas CQL/CQN, drivers de banco de dados e gestão de dados temporais. |
+| **[04. Interface de Usuário](./04-interface-usuario/)** | Criação de UIs com Fiori Elements, Anotações e gestão de Drafts. |
+| **[05. Integrações e Mensageria](./05-integracoes-e-mensageria/)** | Conectando serviços remotos (S/4HANA) e arquitetura orientada a eventos. |
+| **[06. Segurança e Compliance](./06-seguranca-e-compliance/)** | Autenticação (XSUAA), Autorização, Logs de Auditoria e Privacidade. |
+| **[07. Arquitetura Avançada](./07-arquitetura-avancada/)** | Multitenancy (SaaS), Extensibilidade e Plugins. |
+| **[08. Operações e Qualidade](./08-operacoes-devops-qualidade/)** | Testes automatizados, Observabilidade e CI/CD. |
 
 ## Organização e Nomenclatura dos Arquivos
 
