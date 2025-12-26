@@ -1,5 +1,7 @@
 # Módulo 5: Integrações e Mensageria
 
+![Infografico - ](./Infograficos/05.01.01_Dominando_a_Conexão_de_Serviços_com_CAP.png)
+
 Nenhuma aplicação vive em uma ilha. Este módulo explora como as aplicações SAP CAP se comunicam com o mundo exterior, seja consumindo outros serviços em tempo real ou participando de arquiteturas de eventos assíncronas.
 
 Você aprenderá os padrões para construir aplicações que se integram de forma robusta e escalável com outros sistemas, como um S/4HANA, ou com outros microserviços.

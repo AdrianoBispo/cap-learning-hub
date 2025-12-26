@@ -1,5 +1,7 @@
 # Módulo 6: Segurança e Compliance
 
+![Infografico - Guia sobre Segurança e Autenticação em Projetos SAP CAP com Node.js](./Infograficos/06.01.01_Seguranca_e_Autenticacao.png)
+
 Segurança em aplicações empresariais não é opcional. O SAP CAP adota uma filosofia "secure by default", integrando-se nativamente com os serviços de segurança da SAP BTP para proteger seus dados e serviços.
 
 Este módulo aborda os dois pilares fundamentais da segurança: quem pode acessar a aplicação (autenticação), o que eles podem fazer (autorização), e como garantir a conformidade (compliance) através de logs de auditoria e privacidade de dados.
