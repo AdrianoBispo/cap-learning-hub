@@ -4,14 +4,14 @@
 
 Este diretório explora duas das capacidades mais poderosas do SAP CAP: o compilador CDS e a API de reflexão. Juntos, eles permitem a transformação de modelos declarativos (CDL) em representações consumíveis (CSN) e a interação dinâmica com esses modelos em tempo de execução.
 
-## Conteúdo
+## Tópicos Abordados
 
 Os documentos a seguir abordam o processo de compilação, a introspecção de modelos e técnicas de modelagem avançada:
 
--   **Introdução ao Compilador CDS (`01.03.01_Introducao_ao_Compilador_CDS.pdf`):** Apresenta o papel fundamental do compilador `cds.compile`, que transforma os arquivos `.cds` (CDL) em um formato JSON canônico (CSN), o qual é utilizado pelos serviços e runtimes.
+1. **Introdução ao Compilador CDS (`01.03.01_Introducao_ao_Compilador_CDS.pdf`):** Apresenta o papel fundamental do compilador `cds.compile`, que transforma os arquivos `.cds` (CDL) em um formato JSON canônico (CSN), o qual é utilizado pelos serviços e runtimes.
 
--   **Dominando o Compilador de Modelos CAP (`01.03.02_Dominando_Compilador_de_Modelos_CAP.pdf`):** Um mergulho profundo nas funcionalidades do compilador, incluindo a "tradução" para diferentes alvos (como SQL DDL e OData metadata), extensibilidade e o uso de "backends".
+2. **Dominando o Compilador de Modelos CAP (`01.03.02_Dominando_Compilador_de_Modelos_CAP.pdf`):** Um mergulho profundo nas funcionalidades do compilador, incluindo a "tradução" para diferentes alvos (como SQL DDL e OData metadata), extensibilidade e o uso de "backends".
 
--   **Dominando a Reflexão de Modelos (`01.03.03_Dominando_Reflexao_de_Modelos.pdf`):** Demonstra como usar a API de reflexão (`cds.reflect`) para inspecionar a estrutura de um modelo (entidades, propriedades, anotações) em tempo de execução, permitindo a criação de lógicas genéricas e dinâmicas.
+3. **Dominando a Reflexão de Modelos (`01.03.03_Dominando_Reflexao_de_Modelos.pdf`):** Demonstra como usar a API de reflexão (`cds.reflect`) para inspecionar a estrutura de um modelo (entidades, propriedades, anotações) em tempo de execução, permitindo a criação de lógicas genéricas e dinâmicas.
 
--   **Modelagem de Aspectos (`01.03.04_Modelagem_de_Aspectos.pdf`):** Introduz o conceito de `aspects`, uma técnica poderosa para reutilização de código e composição de modelos, permitindo adicionar conjuntos de campos e anotações a múltiplas entidades de forma consistente.
+4. **Modelagem de Aspectos (`01.03.04_Modelagem_de_Aspectos.pdf`):** Introduz o conceito de `aspects`, uma técnica poderosa para reutilização de código e composição de modelos, permitindo adicionar conjuntos de campos e anotações a múltiplas entidades de forma consistente.

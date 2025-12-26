@@ -4,7 +4,7 @@
 
 Este diretório aborda a integração do TypeScript em projetos SAP CAP que utiliza Node.js, permitindo um desenvolvimento mais robusto, com tipagem estática e autocompletar aprimorado.
 
-## Conteúdo
+## Tópico Abordado
 
 O documento a seguir é um guia completo para configurar e utilizar TypeScript em suas aplicações SAP CAP com Node.js:
 

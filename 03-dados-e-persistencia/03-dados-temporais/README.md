@@ -4,6 +4,6 @@
 
 Este diretório aborda o suporte a **dados temporais** (histórico de alterações) do SAP CAP.
 
-## Conteúdo
+## Tópico Abordado
 
 -   **Dominando Dados Temporais (`03.03.01_Dominando_Dados_Temporais.pdf`):** Introduz o conceito de dados temporais em CAP, que permite consultar o estado de uma entidade em diferentes pontos no tempo. Explora a sintaxe `as of` e como o framework gerencia as chaves de validade (`validFrom`, `validTo`).

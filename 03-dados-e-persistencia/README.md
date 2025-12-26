@@ -21,11 +21,16 @@ Descubra como o CAP se comunica com o banco de dados de forma agnóstica.
 - **`DatabaseService` (`cds.db`):** O serviço genérico que representa a conexão com o banco de dados primário.
 - **Drivers de Banco de Dados:** Entenda como o CAP utiliza drivers para suportar **SQLite** em desenvolvimento e **SAP HANA** em produção, sem alterar seu código de serviço.
 
-### 3. [Localização e Dados Temporais](./03-localizacao-e-dados-temporais/README.md)
+### 3. [Dados Temporais](./03-dados-temporais/README.md)
 
-Explore recursos avançados de modelagem para cenários de negócio complexos.
-- **Localização (`localized`):** Simplifique a internacionalização (i18n) de seus dados. O CAP gera automaticamente as tabelas de texto e views necessárias para servir o conteúdo no idioma do usuário.
-- **Dados Temporais (`:temporal`):** Habilite o gerenciamento de validade de registros (`validFrom`, `validTo`) e realize consultas de "viagem no tempo" para auditar o estado dos dados em qualquer momento.
+Aprenda a consultar o estado de uma entidade em diferentes pontos no tempo.
+- **Suporte a Dados Temporais:** Entenda como o CAP gerencia o histórico de alterações com as chaves de validade (`validFrom`, `validTo`) e permite realizar consultas de "viagem no tempo".
+
+### 4. [Dados Localizados e Internacionalização (i18n)](./04-dados-localizados-cdsi18n/README.md)
+
+Garanta que suas aplicações atendam a um público global.
+- **Dados Localizados (`localized`):** Simplifique a internacionalização (i18n) de seus dados. O CAP gera automaticamente as tabelas de texto e views necessárias para servir o conteúdo no idioma do usuário.
+- **`cds.i18n`:** Explore a gestão de arquivos de tradução (`.properties`) para textos estáticos.
 
 ---
 
