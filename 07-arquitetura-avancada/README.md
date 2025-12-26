@@ -1,5 +1,7 @@
 # Módulo 7: Arquitetura Avançada
 
+![Infografico - Extensibilidade no SAP CAP](./Infograficos/07.02.01_Extensibility_Toolkit.png)
+
 Este módulo explora tópicos que elevam sua aplicação CAP de um projeto padrão para uma solução de software escalável, customizável e pronta para o mercado, como um produto **Software-as-a-Service (SaaS)**.
 
 Aqui, você aprenderá a construir aplicações que podem servir múltiplos clientes (tenants) com segurança e a criar uma arquitetura modular e extensível.

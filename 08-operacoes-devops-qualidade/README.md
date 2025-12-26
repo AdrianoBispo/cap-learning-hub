@@ -1,5 +1,7 @@
 # Módulo 8: Operações, DevOps e Qualidade
 
+![Infografico - ](./Infograficos/08.03.01_Do_cds_watch_a_Producao.png)
+
 O ciclo de vida de uma aplicação não termina no desenvolvimento. Este módulo final aborda as práticas de "Day 2": como garantir a qualidade, a observabilidade e o desempenho da sua aplicação em um ambiente produtivo.
 
 Aqui, você aprenderá a construir testes automatizados, a gerar logs estruturados e a empacotar e implantar sua aplicação na nuvem, seguindo as melhores práticas de DevOps e performance.
