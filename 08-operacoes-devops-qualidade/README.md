@@ -1,6 +1,6 @@
 # Módulo 8: Operações, DevOps e Qualidade
 
-![Infografico - ](./Infograficos/08.03.01_Do_cds_watch_a_Producao.png)
+![Infografico - Guia de Como Realizar um Deploy de Qualidade](./Infograficos/08.03.01_Do_cds_watch_a_Producao.png)
 
 O ciclo de vida de uma aplicação não termina no desenvolvimento. Este módulo final aborda as práticas de "Day 2": como garantir a qualidade, a observabilidade e o desempenho da sua aplicação em um ambiente produtivo.
 
