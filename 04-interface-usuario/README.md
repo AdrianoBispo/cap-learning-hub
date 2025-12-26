@@ -1,11 +1,23 @@
-# 04. Interface de Usuário (Fiori Elements)
+# Módulo 4: Interfaces de Usuário com Fiori Elements
 
-O CAP simplifica drasticamente a criação de UIs empresariais ao adotar o desenvolvimento orientado a metadados.
+Este módulo conecta o backend com o frontend, demonstrando um dos recursos mais poderosos do SAP CAP: a capacidade de gerar interfaces de usuário ricas e responsivas diretamente a partir dos seus modelos de dados.
 
-## Conteúdo
+Você aprenderá como usar o SAP Fiori Elements, um framework que interpreta metadados e anotações do seu serviço OData para renderizar UIs complexas (como List Reports e Object Pages) com pouquíssimo código, garantindo consistência e aderência ao design system da SAP.
 
-### 1. Fiori Elements e Anotações
-As anotações `@UI` no modelo CDS dirigem a renderização do frontend SAP Fiori Elements. Isso permite definir colunas, campos de busca, facetas e títulos diretamente no backend, mantendo a UI sincronizada com o modelo de dados.
+## Estrutura do Módulo
 
-### 2. Gestão de Rascunhos (Drafts)
-A funcionalidade de **Draft** permite que usuários editem dados complexos em sessões longas sem bloquear o banco de dados ou perder trabalho não salvo. No CAP, isso é ativado com uma simples anotação `@odata.draft.enabled`, criando automaticamente uma entidade paralela de rascunho e gerenciando o ciclo de vida `EDIT` -> `SAVE` -> `ACTIVATE`.
+### 1. [Fiori Elements e Anotações UI](./01-fiori-elements-annotations/README.md)
+
+Transforme seus modelos de dados em interfaces de usuário funcionais usando o poder das anotações.
+- **Desenvolvimento Orientado a Metadados:** Entenda como as anotações `@UI` (como `@UI.LineItem`, `@UI.FieldGroup`, `@UI.Chart`) adicionadas aos seus arquivos CDS descrevem a aparência e o comportamento da UI.
+- **Da Intenção à Interface:** O serviço OData, enriquecido com metadados, instrui o Fiori Elements a renderizar tabelas, formulários, filtros e gráficos, mantendo a UI perfeitamente sincronizada com o backend.
+
+### 2. [Gestão de Rascunhos (Drafts)](./02-gestao-de-rascunhos-drafts/README.md)
+
+Melhore a experiência do usuário em cenários de edição de dados complexos com o suporte nativo a rascunhos.
+- **Rascunho Transparente:** Com uma única anotação (`@odata.draft.enabled`), o CAP habilita a funcionalidade de "draft" (rascunho).
+- **Ciclo de Vida:** O framework gerencia automaticamente o ciclo de vida completo: criação do rascunho, edição, salvamento (persistindo o rascunho) e ativação (movendo os dados para a entidade principal), garantindo que os dados não sejam perdidos e que não haja bloqueios desnecessários na tabela principal.
+
+---
+
+Ao final deste módulo, você será capaz de anotar seus modelos de serviço para gerar aplicações SAP Fiori Elements completas e de habilitar a funcionalidade de rascunho, proporcionando uma experiência de usuário robusta e padrão em suas aplicações de negócio.

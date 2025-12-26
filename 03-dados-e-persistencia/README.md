@@ -1,16 +1,32 @@
-# 03. Dados e Persistência
+# Módulo 3: Dados e Persistência
 
-O CAP abstrai a complexidade do SQL através de APIs fluentes e agnósticas de banco de dados. Este módulo cobre como interagir com seus dados de forma programática.
+![Infografico - Guia Rapido de Banco de Dados SAP CAP com Node.js](./Infograficos/03.02.01_Banco_de_Dados_Enterprise.png)
 
-## Conteúdo
+Com os modelos definidos e os serviços em execução, é hora de interagir com os dados. Este módulo mergulha fundo na camada de persistência do SAP CAP, mostrando como consultar e manipular dados de forma eficiente e segura.
 
-### 1. Queries (CQL e CQN)
-*   **CQL (CDS Query Language):** Uma linguagem de consulta poderosa que evolui o SQL. Permite projeções aninhadas, *path expressions* para navegar associações e *infix filters*.
-*   **CQN (Core Query Notation):** A representação em objetos JavaScript das queries. O `cds.ql` fornece uma API fluente (ex: `SELECT.from('Books')`) para construir CQN de forma segura contra SQL Injection.
+Você aprenderá a usar as linguagens de consulta do CAP, entenderá como ele se conecta a diferentes bancos de dados e descobrirá recursos avançados para lidar com dados localizados e temporais.
 
-### 2. Drivers e Serviços de DB
-O serviço primário de banco de dados é acessível via `cds.db`. O CAP suporta nativamente **SQLite** para desenvolvimento local (in-memory ou arquivo) e **SAP HANA Cloud** para produção, gerenciando automaticamente pools de conexão e transações.
+## Estrutura do Módulo
 
-### 3. Localização e Dados Temporais
-*   **Localização:** O modificador `localized` gera automaticamente tabelas de textos e views que resolvem o idioma do usuário em tempo de leitura.
-*   **Dados Temporais:** O aspecto `:temporal` habilita consultas de "viagem no tempo" e gerenciamento de validade de registros (`validFrom`, `validTo`).
+### 1. [Queries com CQL e CQN](./01-queries-cql-cqn/README.md)
+
+Abstraia a complexidade do SQL com as poderosas linguagens de consulta do CAP.
+- **CQL (CDS Query Language):** Uma evolução do SQL, projetada para trabalhar com entidades e associações do CDS. Aprenda a usar *path expressions* e projeções aninhadas.
+- **CQN (Core Query Notation):** A representação em objeto JavaScript de uma query.
+- **`cds.ql`:** A API fluente e programática para construir queries CQN de forma segura, evitando SQL injection e garantindo a portabilidade entre bancos de dados.
+
+### 2. [Drivers e Serviços de Banco de Dados](./02-drivers-e-servicos-db/README.md)
+
+Descubra como o CAP se comunica com o banco de dados de forma agnóstica.
+- **`DatabaseService` (`cds.db`):** O serviço genérico que representa a conexão com o banco de dados primário.
+- **Drivers de Banco de Dados:** Entenda como o CAP utiliza drivers para suportar **SQLite** em desenvolvimento e **SAP HANA** em produção, sem alterar seu código de serviço.
+
+### 3. [Localização e Dados Temporais](./03-localizacao-e-dados-temporais/README.md)
+
+Explore recursos avançados de modelagem para cenários de negócio complexos.
+- **Localização (`localized`):** Simplifique a internacionalização (i18n) de seus dados. O CAP gera automaticamente as tabelas de texto e views necessárias para servir o conteúdo no idioma do usuário.
+- **Dados Temporais (`:temporal`):** Habilite o gerenciamento de validade de registros (`validFrom`, `validTo`) e realize consultas de "viagem no tempo" para auditar o estado dos dados em qualquer momento.
+
+---
+
+Ao final deste módulo, você estará apto a construir uma lógica de negócios rica que consulta e persiste dados de maneira robusta, aproveitando ao máximo as abstrações que o SAP CAP oferece para trabalhar com SAP HANA e outros bancos de dados.
