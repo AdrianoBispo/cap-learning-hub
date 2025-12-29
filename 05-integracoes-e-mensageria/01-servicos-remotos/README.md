@@ -1,13 +1,13 @@
-# Módulo 05 (Parte 1): Integrações e Mensageria - Serviços Remotos
+# Módulo 05 (Parte 1): Consumo de Serviços Remotos
 
-![Infografico - ](../Infograficos/05.01.01_Dominando_a_Conexão_de_Serviços_com_CAP.png)
+![Infográfico sobre Conexão de Serviços](../Infograficos/05.01.01_Dominando_a_Conexão_de_Serviços_com_CAP.png)
 
-Este capítulo explora a integração de serviços externos em aplicações SAP CAP, um pilar fundamental para a construção de sistemas empresariais modernos e conectados. Abordamos desde a definição e consumo de serviços remotos até as melhores práticas para garantir uma comunicação eficiente e segura.
+Aplicações modernas raramente vivem isoladas. Este módulo aborda como integrar e consumir serviços externos (como outras APIs OData ou REST) dentro de uma aplicação CAP, tratando-os de forma transparente, como se fossem serviços locais.
 
-## Tópicos Abordados
+## Conteúdo
 
-1. **Dominando a Conexão de Serviços com CAP (`05.01.01_Dominando_a_Conexão_de_Serviços_com_CAP.pdf`)**: Este material oferece uma visão completa sobre como definir, consumir e estender serviços remotos em SAP CAP, detalhando o processo de importação de APIs, configuração de destinos e implementação de lógica customizada.
-
-2. **Conectando Serviços: Do Código à Nuvem (`05.01.02_Conectando_Servicos_Codigo_Nuvem.pdf`)**: Focado na transição do ambiente de desenvolvimento local para a nuvem, este guia explora as nuances da configuração de serviços remotos no SAP BTP, abordando `requires` de forma declarativa e programática.
-
-3. **Remote Service Masterclass (`05.01.03_Remote_Service_Masterclass.pdf`)**: Um mergulho profundo no objeto `RemoteService`, detalhando como interagir com serviços externos de forma programática, tratar exceções e implementar estratégias avançadas como `retries` e `circuit breakers`.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Dominando a Conexão de Serviços](./05.01.01_Dominando_a_Conexão_de_Serviços_com_CAP.pdf) | [Visualizar](../Infograficos/05.01.01_Dominando_a_Conexão_de_Serviços_com_CAP.png) | Uma visão geral de como o CAP se conecta a sistemas externos, abstraindo a complexidade da comunicação de rede. |
+| [Conectando Serviços: Código à Nuvem](./05.01.02_Conectando_Servicos_Codigo_Nuvem.pdf) | [Visualizar](../Infograficos/05.01.02_Conectando_Servicos_Codigo_Nuvem.png) | Demonstra como importar definições de serviço (usando `cds import`) e configurar destinos na nuvem para o consumo em produção. |
+| [Mestria do `RemoteService`](./05.01.03_Remote_Service_Masterclass.pdf) | [Visualizar](../Infograficos/05.01.03_Remote_Service_Masterclass.png) | Um guia sobre a classe `RemoteService`, que permite interagir com serviços externos de forma programática e resiliente. |

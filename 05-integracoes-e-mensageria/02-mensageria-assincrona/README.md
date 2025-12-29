@@ -1,11 +1,12 @@
-# Módulo 05 (Parte 2): Integrações e Mensageria - Mensageria Assíncrona
+# Módulo 05 (Parte 2): Mensageria Assíncrona e Eventos
 
-![Infografico - Mensageria Síncrona vs Assíncrona](../Infograficos/05.02.02_Events_Zero_Code_Microservices.png)
+![Infográfico sobre Mensageria Assíncrona](../Infograficos/05.02.01_Nodejs_Mensageria_Assincrona.png)
 
-Este capítulo aborda a comunicação assíncrona em SAP CAP, um padrão arquitetural essencial para construir aplicações resilientes, escaláveis e de baixo acoplamento. Exploramos como o CAP abstrai a complexidade dos sistemas de mensageria, permitindo que desenvolvedores emitam e recebam eventos de forma produtiva e padronizada.
+Este módulo explora a arquitetura orientada a eventos do CAP. Aprenda a emitir e consumir eventos de forma assíncrona para construir microserviços desacoplados e resilientes, utilizando serviços de mensageria como o SAP Event Mesh.
 
-## Tópicos Abordados
+## Conteúdo
 
-1. **Node.js: Mensageria Assíncrona com SAP CAP (`05.02.01_Nodejs_Mensageria_Assincrona.pdf`)**: Este guia detalha a implementação de `event handlers` em Node.js para emitir (`emit`) e consumir (`on`) eventos. O material explora a semântica de entrega, o tratamento de erros e a interação com serviços de mensageria como o SAP Event Mesh.
-
-2. **Events: Zero-Code Microservices (`05.02.02_Events_Zero_Code_Microservices.pdf`)**: Este guia foca na capacidade do SAP CAP de criar microserviços orientados a eventos com pouca ou nenhuma codificação. Aprenda a declarar eventos no modelo CDS e como o framework automatiza a emissão de eventos em operações CRUD, facilitando a coreografia de processos de negócio.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Mensageria Assíncrona em Node.js](./05.02.01_Nodejs_Mensageria_Assincrona.pdf) | [Visualizar](../Infograficos/05.02.01_Nodejs_Mensageria_Assincrona.png) | Um guia para o `cds.MessagingService`, explicando como emitir (`emit`) e receber (`on`) eventos de forma programática. |
+| [Eventos e Microserviços "Zero-Code"](./05.02.02_Events_Zero_Code_Microservices.pdf) | [Visualizar](../Infograficos/05.02.02_Events_Zero_Code_Microservices.png) | Demonstra como o CAP pode, em muitos casos, propagar eventos entre serviços sem a necessidade de código customizado, apenas com base no modelo. |

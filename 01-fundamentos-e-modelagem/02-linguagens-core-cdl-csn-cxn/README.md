@@ -1,17 +1,14 @@
-# Módulo 1 (Parte 2): Fundamentos e Modelagem - Linguagens Core (CDL, CSN, CXN)
+# Módulo 01 (Parte 2): Linguagens Core do CDS (CDL, CSN, CXN)
 
-![Infografico - O Ecossistema SAP CDS](../Infograficos/01.02.01_SAP_CDS_Projeto_e_Realidade.png)
+![Infográfico sobre CDL](../Infograficos/01.02.02_CDL_Modelagem_Inteligente.png)
 
-Este diretório aprofunda o conhecimento nas linguagens que formam o coração do SAP Cloud Application Programming Model (CAP). Entenderemos como o Core Data Services (CDS) se materializa através de diferentes representações, cada uma com um propósito específico no ciclo de vida do desenvolvimento.
+Este módulo detalha as linguagens que formam o núcleo do SAP CAP: CDL para modelagem, CSN como formato intermediário e CXN para reflexão. Compreender essas linguagens é essencial para dominar a criação e a manipulação de modelos de dados e serviços.
 
-## Tópicos Abordados
+## Conteúdo
 
-Os documentos a seguir detalham as linguagens essenciais do CDS:
-
-1. **SAP CDS: Do Projeto à Realidade (`01.02.01_SAP_CDS_Projeto_e_Realidade.pdf`):** Conecta a fase de design do modelo com sua implementação prática, mostrando como o CDS traduz a intenção de negócio em artefatos de software concretos.
-
-2. **CDL: Modelagem Inteligente (`01.02.02_CDL_Modelagem_Inteligente.pdf`):** Foco na **CDS Definition Language (CDL)**, a linguagem declarativa usada por desenvolvedores para criar modelos de dados, serviços e anotações de UI de forma legível e concisa.
-
-3. **CSN: A Anatomia dos Modelos (`01.02.03_CSN_Anatomia_dos_Modelos.pdf`):** Explora a **CDS Schema Notation (CSN)**, a representação JSON canônica de um modelo CDS. O CSN é o que o compilador CDS gera e o que os runtimes (Node.js/Java) consomem.
-
-4. **CXN: O Blueprint do CDS (`01.02.04_CXN_The_CDS_Blueprint.pdf`):** Apresenta uma visão sobre os modelos Core Expression Notation (CXN), um formato intermediário utilizado pelo compilador CDS para processar e avaliar expressões complexas, garantindo consistência e otimização antes da geração do CSN final.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [SAP CDS: Do Projeto à Realidade](./01.02.01_SAP_CDS_Projeto_e_Realidade.pdf) | [Visualizar](../Infograficos/01.02.01_SAP_CDS_Projeto_e_Realidade.png) | Explora como o SAP CDS traduz o projeto de domínio em uma realidade executável e interoperável. |
+| [CDL: Modelagem Inteligente](./01.02.02_CDL_Modelagem_Inteligente.pdf) | [Visualizar](../Infograficos/01.02.02_CDL_Modelagem_Inteligente.png) | Um guia para a Core Data Language (CDL), focando em como definir modelos de dados e serviços de forma declarativa. |
+| [CSN: A Anatomia dos Modelos](./01.02.03_CSN_Anatomia_dos_Modelos.pdf) | [Visualizar](../Infograficos/01.02.03_CSN_Anatomia_dos_Modelos.png) | Descreve a Core Schema Notation (CSN), o formato JSON que representa os modelos CDS após a compilação. |
+| [CXN: O Blueprint das Expressões](./01.02.04_CXN_The_CDS_Blueprint.pdf) | [Visualizar](../Infograficos/01.02.04_CXN_The_CDS_Blueprint.png) | Apresenta a Core Expression Notation (CXN), um formato interno para representar expressões e consultas de forma estruturada. |

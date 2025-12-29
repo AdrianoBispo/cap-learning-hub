@@ -1,11 +1,11 @@
-# Módulo 2 (Parte 4): Runtime Node.js Core - Setup com TypeScript
+# Módulo 02 (Parte 4): Setup e Desenvolvimento com TypeScript
 
-![infografico - ](../Infograficos/02.04.01_TypeScript_Guia_Definitivo.png)
+![Infográfico sobre TypeScript em CAP](../Infograficos/02.04.01_TypeScript_Guia_Definitivo.png)
 
-Este diretório aborda a integração do TypeScript em projetos SAP CAP que utiliza Node.js, permitindo um desenvolvimento mais robusto, com tipagem estática e autocompletar aprimorado.
+Este módulo orienta como configurar e utilizar TypeScript em projetos SAP CAP. O uso de TypeScript traz benefícios como tipagem estática, melhor autocompletar (IntelliSense) e um desenvolvimento mais robusto e seguro, detectando erros em tempo de compilação.
 
-## Tópico Abordado
+## Conteúdo
 
-O documento a seguir é um guia completo para configurar e utilizar TypeScript em suas aplicações SAP CAP com Node.js:
-
--   **TypeScript: Guia Definitivo (`02.04.01_TypeScript_Guia_Definitivo.pdf`):** Detalha o processo de configuração do ambiente de desenvolvimento para TypeScript, incluindo a instalação de dependências (`@sap/cds-dk`, `typescript`), a configuração do `tsconfig.json` e a geração de tipos a partir dos seus modelos CDS. Aprenda a escrever *handlers* de serviço com tipagem forte para entidades, requisições e serviços.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [TypeScript em CAP: O Guia Definitivo](./02.04.01_TypeScript_Guia_Definitivo.pdf) | [Visualizar](../Infograficos/02.04.01_TypeScript_Guia_Definitivo.png) | Um guia completo para habilitar e usar TypeScript em seu projeto CAP, incluindo a geração de tipos a partir de modelos CDS (`cds-typer`). |

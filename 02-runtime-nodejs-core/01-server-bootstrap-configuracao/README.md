@@ -1,15 +1,13 @@
-# Módulo 2 (Parte 1): Runtime Node.js Core - Server Bootstrap e Configuração
+# Módulo 02 (Parte 1): Bootstrap e Configuração do Servidor Node.js
 
-![Infografico - Guia Completo do objeto CDS do SAP CAP Nodejs](../Infograficos/02.01.03_Objeto_cds_Guia_Completo.png)
+![Infográfico sobre o Objeto CDS](../Infograficos/02.01.02_Objeto_cds_Guia_Completo.png)
 
-Este diretório foca no coração do runtime do SAP CAP para Node.js. Abordaremos como um servidor CAP é iniciado, como as configurações são gerenciadas e qual o papel do objeto global `cds`.
+Este módulo aborda o processo de inicialização de um servidor CAP em Node.js, a configuração do ambiente e o papel central do objeto `cds`. Entender o bootstrap é fundamental para customizar o comportamento do servidor e otimizar a configuração para diferentes ambientes.
 
-## Tópicos Abordados
+## Conteúdo
 
-Os documentos a seguir detalham o processo de inicialização e configuração de um serviço CAP em Node.js:
-
-1. **Node.js Server Mastery (`02.01.01_Nodejs_Server_Mastery.pdf`):** Um guia completo sobre o `cds.server`, que é responsável por iniciar o servidor Express.js, carregar os modelos CDS e expor os serviços definidos.
-
-2. **Desvendando `cds.env` (`02.01.02_Desvendando_cds_env.pdf`):** Explora o `cds.env`, o objeto central para configuração de aplicações CAP. Veremos como ele consolida configurações de `package.json`, variáveis de ambiente e perfis (`development`, `production`).
-
-3. **O Objeto `cds`: Guia Completo (`02.01.03_Objeto_cds_Guia_Completo.pdf`):** Apresenta o objeto `cds`, que serve como o principal ponto de entrada para as APIs do CAP. Ele fornece acesso a serviços, ao modelo (`cds.model`), a utilitários e ao ciclo de vida da aplicação.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Mestria do Servidor Node.js](./02.01.01_Nodejs_Server_Mastery.pdf) | [Visualizar](../Infograficos/02.01.01_Nodejs_Server_Mastery.png) | Guia para o processo de bootstrap de um servidor Node.js com CAP, desde o `cds watch` até a inicialização customizada via `server.js`. |
+| [O Objeto `cds`: Guia Completo](./02.01.02_Objeto_cds_Guia_Completo.pdf) | [Visualizar](../Infograficos/02.01.02_Objeto_cds_Guia_Completo.png) | Um olhar detalhado sobre o objeto global `cds`, o ponto de entrada para todas as APIs, modelos e serviços do CAP runtime. |
+| [Desvendando `cds.env`](./02.01.03_Desvendando_cds_env.pdf) | [Visualizar](../Infograficos/02.01.03_Desvendando_cds_env.png) | Explica como gerenciar configurações de ambiente (como `development` e `production`) usando perfis no `cds.env`. |

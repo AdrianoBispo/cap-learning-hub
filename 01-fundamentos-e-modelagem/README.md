@@ -1,34 +1,19 @@
-# Módulo 1: Fundamentos e Modelagem com SAP CAP
+# Módulo 01: Fundamentos e Modelagem com SAP CAP
 
-![Infografico - Guia Rapido de Desenvolvimento SAP CAP (Node.js)](./Infograficos/01.01.01_Jornada_do_Construtor.png)
+![Infográfico Guia de Desenvolvimento](../Infografico%20-%20Guia%20de%20Desenvolvimento%20SAP%20CAP%20com%20Nodejs.png)
 
-Bem-vindo ao ponto de partida da sua jornada com o **SAP Cloud Application Programming Model (CAP)**. Este módulo é dedicado à espinha dorsal de qualquer aplicação CAP: o **Core Data Services (CDS)**.
+Este módulo serve como a base para o desenvolvimento com o SAP Cloud Application Programming Model (CAP). Ele introduz a filosofia de design, as linguagens de definição de dados (CDS), o processo de compilação e as melhores práticas de modelagem para garantir performance e manutenibilidade.
 
-Aqui, você aprenderá a traduzir a intenção de negócio em modelos de dados declarativos e robustos, que servem como a única fonte da verdade para toda a sua aplicação, desde o banco de dados até a interface do usuário.
+## Tópicos
 
-## Estrutura do Módulo
-
-Este módulo está dividido nas seguintes seções, cada uma construindo sobre a anterior:
-
-### 1. [Filosofia e Intenção](./01-filosofia-e-intencao/README.md)
-
-Nesta seção, mergulhamos na mentalidade por trás do CAP. O foco é em modelar *o que* a aplicação deve fazer, não *como*.
-- **Conceitos abordados:** Modelagem orientada a intenção, jornada do desenvolvedor e a construção de aplicações robustas.
-- **Artefatos importantes:** Introdução a **Aspectos** como `cuid` e `managed` para enriquecer seus modelos de forma reutilizável.
-
-### 2. [Linguagens Core: CDL, CSN e CXN](./02-linguagens-core-cdl-csn-cxn/README.md)
-
-Exploramos as diferentes "faces" do CDS, cada uma com um propósito específico no ciclo de vida do desenvolvimento.
-- **CDL (Conceptual Definition Language):** A linguagem humanamente legível para escrever seus modelos (`.cds`).
-- **CSN (Core Schema Notation):** A representação canônica do seu modelo em JSON, usada pelo runtime do CAP.
-- **CXN (CDS Expression Notation):** A notação interna para expressões, que garante consistência entre diferentes representações.
-
-### 3. [Compilador e Reflexão](./03-compilador-e-reflexao/README.md)
-
-Descubra a "mágica" que transforma seus modelos de domínio em artefatos concretos e como inspecioná-los em tempo de execução.
-- **Compilador (`cds build`/`compile`):** O processo que transforma CDL em CSN e gera DDL para o banco de dados e metadados OData (EDMX).
-- **API de Reflexão:** Como usar `cds.model` e `cds.linked_model` para navegar e interagir com a estrutura do seu modelo dinamicamente via código.
+| Tópico | Descrição |
+| :--- | :--- |
+| [**Filosofia e Intenção**](./01-filosofia-e-intencao/README.md) | Foco nos conceitos fundamentais que guiam o desenvolvimento, na modelagem orientada pela intenção e na estrutura do Core Data Services (CDS). |
+| [**Linguagens Core (CDL, CSN, CXN)**](./02-linguagens-core-cdl-csn-cxn/README.md) | Detalha as linguagens que formam o núcleo do SAP CAP: CDL para modelagem, CSN como formato intermediário e CXN para reflexão. |
+| [**Compilador e Reflexão**](./03-compilador-e-reflexao/README.md) | Explora o processo de compilação de modelos CDS e como a API de reflexão permite que os serviços interajam com esses modelos dinamicamente. |
+| [**Modelagem Performática e Aspectos**](./04-modelagem-performatica/README.md) | Foca em técnicas avançadas para otimizar a performance e reutilizar definições através de `aspects`. |
+| [**Infográficos do Módulo**](./Infograficos/README.md) | Coleção de todos os infográficos e diagramas visuais relacionados a este módulo. |
 
 ---
 
-Ao final deste módulo, você terá uma base sólida sobre como pensar e construir modelos de dados eficientes com SAP CAP, preparando o terreno para os próximos módulos sobre serviços, persistência e interfaces de usuário.
+Este é o ponto de partida para qualquer desenvolvedor que deseja construir aplicações robustas, escaláveis e eficientes com SAP CAP e Node.js.

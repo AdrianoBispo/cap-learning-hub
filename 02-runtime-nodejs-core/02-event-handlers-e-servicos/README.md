@@ -1,17 +1,14 @@
-# Módulo 2 (Parte 2): Runtime Node.js Core - Event Handlers e Serviços
+# Módulo 02 (Parte 2): Event Handlers e Serviços
 
-![Infografico - ](../Infograficos/02.02.02_Services_Dominando_a_Dualidade.png)
+![Infográfico sobre a Anatomia de um Serviço](../Infograficos/02.02.01_Anatomia_de_um_Servico.png)
 
-Este diretório mergulha na implementação de lógica de negócios customizada em SAP CAP através de *event handlers*. Vamos entender a estrutura dos serviços, como registrar *handlers* para eventos do ciclo de vida (CRUD) e a dualidade entre serviços de aplicação e serviços conectados.
+O coração da lógica de negócios em CAP reside nos serviços e seus event handlers. Este módulo detalha como registrar handlers para eventos (CRUD), a dualidade dos serviços (sua definição vs. implementação), o fluxo de requisições e o uso da classe `ApplicationService`.
 
-## Tópicos Abordados
+## Conteúdo
 
-Os documentos a seguir são essenciais para dominar a implementação de serviços no runtime Node.js:
-
-1. **Anatomia de um Serviço (`02.02.01_Anatomia_de_um_Servico.pdf`):** Descreve a estrutura de um arquivo de implementação de serviço (`.js`), mostrando como registrar *handlers* com `srv.before`, `srv.on` e `srv.after` para interceptar e modificar o comportamento padrão.
-
-2. **Services: Dominando a Dualidade (`02.02.02_Services_Dominando_a_Dualidade.pdf`):** Explica a diferença entre `ApplicationService` (onde sua lógica de negócios reside) e `cds.Service` (a interface genérica para interagir com qualquer serviço, seja ele local ou remoto).
-
-3. **Fluxo de Requisições: Síncrono e Assíncrono (`02.02.03_Fluxo_Requisicoes_Sync_Async.pdf`):** Detalha o fluxo de uma requisição através das fases de um evento (`before`, `on`, `after`), explicando o papel do `Promise chain` e como manipular o objeto de requisição (`req`) e os dados (`req.data`).
-
-4. **ApplicationService Mastery (`02.02.04_ApplicationService_Mastery.pdf`):** Um guia avançado sobre a classe `ApplicationService`, da qual seus serviços herdam. Aborda o método `init()` e outras técnicas para estruturar sua lógica de negócios de forma modular e reutilizável.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [A Anatomia de um Serviço CAP](./02.02.01_Anatomia_de_um_Servico.pdf) | [Visualizar](../Infograficos/02.02.01_Anatomia_de_um_Servico.png) | Descreve a estrutura de um serviço CAP, incluindo a definição (`.cds`) e a implementação (`.js`), e como elas se conectam. |
+| [Dominando a Dualidade dos Serviços](./02.02.02_Services_Dominando_a_Dualidade.pdf) | [Visualizar](../Infograficos/02.02.02_Services_Dominando_a_Dualidade.png) | Explora a separação entre a definição da API do serviço e sua implementação, um conceito-chave para criar serviços flexíveis. |
+| [Fluxo de Requisições: Síncrono e Assíncrono](./02.02.03_Fluxo_Requisicoes_Sync_Async.pdf) | [Visualizar](../Infograficos/02.02.03_Fluxo_Requisicoes_Sync_Async.png) | Ilustra o ciclo de vida de uma requisição, desde o cliente até a resposta, passando pelas fases `before`, `on` e `after` dos event handlers. |
+| [Mestria do `ApplicationService`](./02.02.04_ApplicationService_Mastery.pdf) | [Visualizar](../Infograficos/02.02.04_ApplicationService_Mastery.png) | Um guia para a classe `ApplicationService`, a base para a criação de toda a lógica de negócios customizada em suas aplicações. |

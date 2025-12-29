@@ -1,11 +1,12 @@
-# Módulo 4 (Parte 1): Interface de Usuário - Fiori Elements e Anotações
+# Módulo 04 (Parte 1): Anotações de UI para Fiori Elements
 
-![Infografico - Fiori Elements e Anotações](../Infograficos/04.01.02_Fiori_Elements_Metadados.png)
+![Infográfico sobre Metadados de Fiori](../Infograficos/04.01.01_Fiori_Elements_Metadados.png)
 
-Neste capítulo, exploramos como as anotações do CDS são fundamentais para a criação de interfaces de usuário ricas e intuitivas com Fiori Elements, transformando a intenção do modelo de dados em uma experiência de usuário consistente e funcional.
+Este módulo mostra como o CAP permite a geração automática de UIs ricas e consistentes com **SAP Fiori Elements** através de anotações nos modelos de serviço. Ao descrever a semântica da UI no backend, o frontend é renderizado dinamicamente, acelerando o desenvolvimento.
 
-## Tópicos Abordados
+## Conteúdo
 
-1. **Da Intenção à Interface (`04.01.01_Da_Intencao_a_Interface.pdf`):** Aprenda como os modelos de dados e serviços do CAP se transformam em interfaces de usuário Fiori, explorando a filosofia por trás das anotações e seu impacto na experiência do usuário final.
-
-2. **Metadados do Fiori Elements (`04.01.02_Fiori_Elements_Metadados.pdf`):** Um guia detalhado sobre como as anotações de metadados do OData V4 e as anotações específicas do Fiori Elements são utilizadas para controlar a aparência e o comportamento das aplicações.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Da Intenção à Interface](./04.01.01_Da_Intencao_a_Interface.pdf) | [Visualizar](../Infograficos/04.01.01_Fiori_Elements_Metadados.png) | Explica como a modelagem semântica do CDS ("o que" e "por que") se traduz em interfaces de usuário inteligentes e contextuais. |
+| [Fiori Elements e Metadados](./04.01.02_Fiori_Elements_Metadados.pdf) | [Visualizar](../Infograficos/04.01.01_Fiori_Elements_Metadados.png) | Um guia sobre as principais anotações de UI (`@UI.*`) que controlam a aparência e o comportamento das aplicações Fiori Elements. |

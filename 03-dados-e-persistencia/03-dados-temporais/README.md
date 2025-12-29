@@ -1,9 +1,11 @@
-# Módulo 3 (Parte 3): Dados e Persistência - Dominando Dados Temporais
+# Módulo 03 (Parte 3): Dados Temporais
 
-![Infografico - ](../Infograficos/03.03.01_Dominando_Dados_Temporais.png)
+![Infográfico sobre Dados Temporais](../Infograficos/03.03.01_Dominando_Dados_Temporais.png)
 
-Este diretório aborda o suporte a **dados temporais** (histórico de alterações) do SAP CAP.
+Este módulo explica o suporte nativo do CAP para dados temporais. Esta funcionalidade, especialmente poderosa em conjunto com SAP HANA, permite realizar consultas em um ponto específico no tempo ("time travel queries"), simplificando a análise de histórico de dados.
 
-## Tópico Abordado
+## Conteúdo
 
--   **Dominando Dados Temporais (`03.03.01_Dominando_Dados_Temporais.pdf`):** Introduz o conceito de dados temporais em CAP, que permite consultar o estado de uma entidade em diferentes pontos no tempo. Explora a sintaxe `as of` e como o framework gerencia as chaves de validade (`validFrom`, `validTo`).
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Dominando Dados Temporais](./03.03.01_Dominando_Dados_Temporais.pdf) | [Visualizar](../Infograficos/03.03.01_Dominando_Dados_Temporais.png) | Um guia sobre como modelar e consultar entidades com dados temporais usando as anotações `@cds.valid.from`/`@cds.valid.to` e a sintaxe de consulta `AS OF`. |

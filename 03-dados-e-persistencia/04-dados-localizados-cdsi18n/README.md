@@ -1,13 +1,13 @@
-# Módulo 3 (Parte 4): Dados Localizados e Internacionalização (i18n)
+# Módulo 03 (Parte 4): Dados Localizados e i18n
 
-![Infografico - Dados Localizados e Internacionalização (i18n)](../Infograficos/03.04.02_Localized_Data_Deep_Dive.png)
+![Infográfico sobre Localização](../Infograficos/03.04.01_Localizacao_Global.png)
 
-Este módulo explora as capacidades do SAP CAP para lidar com dados localizados e internacionalização (i18n), garantindo que suas aplicações possam ser utilizadas globalmente com suporte a múltiplos idiomas e formatos regionais.
+Este módulo detalha como o CAP simplifica o desenvolvimento de aplicações multilíngues. Ele gerencia automaticamente a tradução de textos (de metadados e de UI) e o conteúdo de entidades localizadas, servindo os dados corretos com base no locale do usuário.
 
-## Tópicos Abordados
+## Conteúdo
 
-1. **Localização Global (`03.03.02_Localizacao_Global.pdf`)**: Introdução aos conceitos de localização e como o CAP facilita a criação de aplicações prontas para o mercado global, abordando a tradução de textos e a formatação de dados.
-
-2. **Mergulho Profundo em Dados Localizados (`03.03.03_Localized_Data_Deep_Dive.pdf`)**: Uma análise detalhada de como o CAP gerencia dados localizados no banco de dados, utilizando as entidades `.texts` para armazenar traduções de forma eficiente e transparente.
-
-3. **Aprofundamento em `cds.i18n` (`03.03.04_Mergulho_Profundo_cdsi18n.pdf`)**: Exploração avançada dos arquivos `.properties` e do formato `cds.i18n` para gerenciar as traduções de textos estáticos da sua aplicação, incluindo a estrutura e as melhores práticas.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Estratégias para Localização Global](./03.04.01_Localizacao_Global.pdf) | [Visualizar](../Infograficos/03.04.01_Localizacao_Global.png) | Uma introdução aos conceitos de internacionalização (i18n) e localização (l10n) e como o CAP os implementa. |
+| [Mergulho Profundo em Dados Localizados](./03.04.02_Localized_Data_Deep_Dive.pdf) | [Visualizar](../Infograficos/02.04.02_Localized_Data_Deep_Dive.png) | Explica como modelar entidades para suportar dados em múltiplos idiomas usando a anotação `localized` e as views de texto geradas. |
+| [O Mecanismo de `i18n`](./03.04.03_Mergulho_Profundo_cdsi18n.pdf) | [Visualizar](../Infograficos/03.04.03_Mergulho_Profundo_cdsi18n.png) | Um guia sobre como gerenciar arquivos de tradução (`.properties`) e como o CAP os utiliza para servir conteúdo no idioma do usuário. |
