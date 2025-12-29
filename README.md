@@ -61,4 +61,4 @@ Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para m
 
 ---
 
-_Todo o conteúdo deste repositório foi gerado com o auxílio de um Notebook LM, tendo como base a documentação oficial do SAP Cloud Application Programming Model._
+_Todo conteúdo presente nesse repositório foi gerado pelo Notebook LM com base na documentação oficial da SAP Cloud Application Programming Model._
