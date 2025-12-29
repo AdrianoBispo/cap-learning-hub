@@ -14,4 +14,3 @@ Os documentos a seguir abordam o processo de compilação, a introspecção de m
 
 3. **Dominando a Reflexão de Modelos (`01.03.03_Dominando_Reflexao_de_Modelos.pdf`):** Demonstra como usar a API de reflexão (`cds.reflect`) para inspecionar a estrutura de um modelo (entidades, propriedades, anotações) em tempo de execução, permitindo a criação de lógicas genéricas e dinâmicas.
 
-4. **Modelagem de Aspectos (`01.03.04_Modelagem_de_Aspectos.pdf`):** Introduz o conceito de `aspects`, uma técnica poderosa para reutilização de código e composição de modelos, permitindo adicionar conjuntos de campos e anotações a múltiplas entidades de forma consistente.
