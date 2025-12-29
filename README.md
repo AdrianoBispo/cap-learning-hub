@@ -1,4 +1,6 @@
-![Infografico - Guia Rapido de Desenvolvimento SAP CAP (Node.js)](./02-runtime-nodejs-core/Infograficos/02.03.01_Nodejs_SDK_Deep_Dive.png)
+# Guia de Estudos SAP CAP com Nodejs
+
+![Infografico - Guia Rapido de Desenvolvimento SAP CAP (Node.js)](./Infografico%20-%20Guia%20de%20Desenvolvimento%20SAP%20CAP%20com%20Nodejs.png)
 
 > **Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP utilizando o Node.js.**
 
