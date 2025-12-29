@@ -1,25 +1,17 @@
-# Módulo 6: Segurança e Compliance
+# Módulo 06: Segurança e Compliance
 
-![Infografico - Guia sobre Segurança e Autenticação em Projetos SAP CAP com Node.js](./Infograficos/06.01.01_Seguranca_e_Autenticacao.png)
+![Infográfico sobre Segurança e Autenticação](../Infograficos/06.01.01_Seguranca_e_Autenticacao.png)
 
-Segurança em aplicações empresariais não é opcional. O SAP CAP adota uma filosofia "secure by default", integrando-se nativamente com os serviços de segurança da SAP BTP para proteger seus dados e serviços.
+A segurança é um aspecto crítico em qualquer aplicação empresarial, e o CAP oferece ferramentas e padrões para garantir que suas aplicações sejam robustas e estejam em conformidade com as regulamentações. Este módulo aborda desde a autenticação e autorização de usuários até a gestão de logs de auditoria e a privacidade de dados.
 
-Este módulo aborda os dois pilares fundamentais da segurança: quem pode acessar a aplicação (autenticação), o que eles podem fazer (autorização), e como garantir a conformidade (compliance) através de logs de auditoria e privacidade de dados.
+## Tópicos
 
-## Estrutura do Módulo
-
-### 1. [Autenticação e Autorização](./01-autenticacao-e-autorizacao/README.md)
-
-Controle o acesso à sua aplicação de forma declarativa e robusta.
-- **Autenticação:** O CAP se integra nativamente com o serviço de Autenticação e Autorização da BTP (XSUAA). O runtime processa o token do usuário (JWT), disponibilizando sua identidade e atributos de forma segura no contexto da requisição (ex: `cds.context.user`).
-- **Autorização:** Em vez de espalhar a lógica de permissão pelo código, você a define diretamente no seu modelo de dados com anotações. Use `@requires: 'Role'` para restringir o acesso a entidades ou serviços inteiros, e `@restrict` para definir permissões granulares de CRUD (Leitura, Escrita, Atualização, Deleção) com base em papéis (roles).
-
-### 2. [Logs de Auditoria e Privacidade de Dados](./02-audit-log-e-privacidade/README.md)
-
-Garanta a conformidade e a rastreabilidade exigidas em ambientes corporativos.
-- **Privacidade de Dados:** Classifique dados sensíveis usando anotações como `@PersonalData.IsPotentiallyPersonal`. Isso é fundamental para atender a regulações como a LGPD/GDPR e se integrar a outros serviços de gerenciamento de dados na BTP.
-- **Logs de Auditoria (Audit Logging):** Com o uso de plugins como `@cap-js/audit-logging`, o CAP pode registrar automaticamente eventos críticos de segurança — como o acesso a dados pessoais ou a alteração de registros importantes — no SAP Auditlog Service, garantindo a rastreabilidade completa das ações do usuário.
+| Tópico | Descrição |
+| :--- | :--- |
+| [**Autenticação e Autorização**](./01-autenticacao-e-autorizacao/README.md) | Foca nos mecanismos de autenticação (identidade do usuário) e autorização (permissões de acesso) para proteger os serviços e dados. |
+| [**Audit Log e Privacidade de Dados**](./02-audit-log-e-privacidade/README.md) | Aborda a importância do log de auditoria e como implementar recursos para garantir a privacidade e a conformidade dos dados (GDPR, LGPD). |
+| [**Infográficos do Módulo**](./Infograficos/README.md) | Coleção de todos os infográficos e diagramas visuais relacionados a este módulo. |
 
 ---
 
-Ao final deste módulo, você saberá como proteger sua aplicação CAP usando um modelo de permissões declarativo, como integrar-se aos serviços de segurança da BTP e como implementar os requisitos de compliance essenciais para qualquer aplicação de nível empresarial.
+Implementar corretamente a segurança e garantir a conformidade é fundamental para proteger sua aplicação e os dados dos usuários.

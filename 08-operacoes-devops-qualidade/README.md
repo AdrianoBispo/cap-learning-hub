@@ -1,31 +1,18 @@
-# Módulo 8: Operações, DevOps e Qualidade
+# Módulo 08: Operações, DevOps e Qualidade
 
-![Infografico - Guia de Como Realizar um Deploy de Qualidade](./Infograficos/08.03.01_Do_cds_watch_a_Producao.png)
+![Infográfico sobre Testes Automatizados](../Infograficos/08.01.01_Dominando_Testes_Nodejs.png)
 
-O ciclo de vida de uma aplicação não termina no desenvolvimento. Este módulo final aborda as práticas de "Day 2": como garantir a qualidade, a observabilidade e o desempenho da sua aplicação em um ambiente produtivo.
+A fase de operações é tão crítica quanto o desenvolvimento. Este módulo aborda as práticas de DevOps e garantia de qualidade para aplicações CAP, cobrindo testes automatizados, observabilidade (logging), e boas práticas para levar suas aplicações de forma segura e eficiente para produção.
 
-Aqui, você aprenderá a construir testes automatizados, a gerar logs estruturados e a empacotar e implantar sua aplicação na nuvem, seguindo as melhores práticas de DevOps e performance.
+## Tópicos
 
-## Estrutura do Módulo
-
-### 1. [Testes Automatizados](./01-testes-automatizados/README.md)
-
-Garanta a qualidade e a estabilidade do seu código com uma suíte de testes robusta.
-- **Framework de Teste:** Explore o pacote `@sap/cds-test`, que se integra a runners como o **Jest** para facilitar os testes de serviços CAP.
-- **Tipos de Teste:** Aprenda a escrever tanto testes de API "in-process" (caixa-branca), que invocam seus `handlers` diretamente, quanto testes de integração "black-box" via requisições HTTP/OData, simulando o comportamento de um cliente real.
-
-### 2. [Observabilidade e Logging](./02-observabilidade-logging/README.md)
-
-Entenda o que está acontecendo dentro da sua aplicação em tempo de execução.
-- **Logging Estruturado:** Domine a API `cds.log()`, que gera logs legíveis para humanos durante o desenvolvimento e logs estruturados em JSON para produção. Estes logs são essenciais para análise, monitoramento e integração com plataformas como o Kibana ou Splunk.
-- **Rastreabilidade:** Veja como o CAP inclui automaticamente um `correlation-id` em todas as mensagens de log de uma mesma requisição, permitindo rastrear uma transação completa através de múltiplos serviços e componentes.
-
-### 3. [Deploy, Produção e Performance](./03-deploy-producao-performance/README.md)
-
-Leve sua aplicação do ambiente de desenvolvimento (`cds watch`) para a produção.
-- **Build para Produção:** O comando `cds build` compila seus modelos, transpila o código (se usar TypeScript) e prepara um pacote otimizado para implantação em ambientes de nuvem como o SAP BTP (Cloud Foundry) ou Kyma (Kubernetes).
-- **Boas Práticas e Performance:** Receba dicas sobre modelagem de dados performática e práticas de desenvolvimento Node.js que garantem que sua aplicação seja escalável e eficiente sob carga.
+| Tópico | Descrição |
+| :--- | :--- |
+| [**Testes Automatizados**](./01-testes-automatizados/README.md) | Aborda a importância e as estratégias para implementar testes automatizados (unitários, de integração e de serviço) em aplicações CAP. |
+| [**Observabilidade e Logging**](./02-observabilidade-logging/README.md) | Foca na importância da observabilidade e na implementação de logging eficaz em aplicações CAP, permitindo monitorar, diagnosticar e depurar problemas. |
+| [**Produção e Boas Práticas**](./03-producao-e-boas-praticas/README.md) | Guia para levar suas aplicações CAP de desenvolvimento à produção, cobrindo otimização de performance e as melhores práticas de desenvolvimento em Node.js. |
+| [**Infográficos do Módulo**](./Infograficos/README.md) | Coleção de todos os infográficos e diagramas visuais relacionados a este módulo. |
 
 ---
 
-**Parabéns!** Ao concluir este módulo, você terá percorrido toda a jornada de desenvolvimento com o SAP CAP: da concepção do modelo de dados à sua implementação, segurança, integração e, finalmente, operação em um ambiente produtivo. Você está pronto para construir aplicações empresariais robustas e de ponta a ponta.
+Garantir a qualidade, monitorar o ambiente e seguir as melhores práticas são cruciais para o sucesso a longo prazo de suas aplicações em produção.

@@ -1,11 +1,12 @@
-# Módulo 06 (Parte 1): Segurança e Compliance - Autenticação e Autorização
+# Módulo 06 (Parte 1): Autenticação e Autorização
 
-![Infografico - Dominando a Autenticação no SAP CAP com Node.js ](../Infograficos/06.01.02_Authentication_Developers_Path.png)
+![Infográfico sobre Segurança e Autenticação](../Infograficos/06.01.01_Seguranca_e_Autenticacao.png)
 
-A segurança é um pilar não negociável em aplicações corporativas. Este capítulo é dedicado a desmistificar a implementação de autenticação e autorização em SAP CAP, mostrando como o framework se integra perfeitamente com provedores de identidade e simplifica a definição de regras de acesso.
+A segurança é primordial em qualquer aplicação empresarial. Este módulo aborda os mecanismos de autenticação e autorização no SAP CAP, essenciais para proteger o acesso aos seus serviços e dados, garantindo que apenas usuários autorizados possam interagir com a aplicação.
 
-## Tópicos Abordados
+## Conteúdo
 
-1. **Segurança e Autenticação com SAP CAP (`06.01.01_Seguranca_e_Autenticacao.pdf`)**: Um guia essencial que introduz os conceitos de segurança no CAP. Aprenda a usar a anotação `@requires` para proteger serviços e entidades, e entenda como o objeto `cds.user` encapsula a identidade do usuário autenticado, permitindo a implementação de lógicas de autorização dinâmicas.
-
-2. **O Caminho do Desenvolvedor para Autenticação (`06.01.02_Authentication_Developers_Path.pdf`)**: Este material detalha a jornada da autenticação no SAP CAP, desde o fluxo de `login` com `passport.js` até a validação de tokens JWT. O artigo explora como o CAP abstrai as complexidades, oferecendo uma API consistente (`req.user`) para acesso aos dados do usuário em diferentes contextos.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Segurança e Autenticação no CAP](./06.01.01_Seguranca_e_Autenticacao.pdf) | [Visualizar](../Infograficos/06.01.01_Seguranca_e_Autenticacao.png) | Introdução aos princípios de segurança do CAP, incluindo autenticação de usuários e serviços, e como definir requisitos de acesso. |
+| [A Jornada do Desenvolvedor de Autenticação](./06.01.02_Authentication_Developers_Path.pdf) | [Visualizar](../Infograficos/06.01.02_Authentication_Developers_Path.png) | Guia prático para configurar e implementar autenticação em aplicações CAP, incluindo cenários com OAuth2, JWT e a integração com provedores de identidade. |

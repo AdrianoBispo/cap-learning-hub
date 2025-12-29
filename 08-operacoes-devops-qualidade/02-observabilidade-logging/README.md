@@ -1,9 +1,11 @@
-# Módulo 08 (Parte 2): Operações, DevOps e Qualidade - Observabilidade e Logging
+# Módulo 08 (Parte 2): Observabilidade e Logging
 
-![Infografico - Desenvolvimento vs Produção](../Infograficos/08.02.01_Logging_Dev_Producao.png)
+![Infográfico sobre Logging](../Infograficos/08.02.01_Logging_Dev_Producao.png)
 
-Entender o que sua aplicação está fazendo em tempo real é fundamental para a depuração, monitoramento e otimização. O SAP CAP fornece uma API de `logging` poderosa e configurável que se adapta a diferentes ambientes, desde o console local durante o desenvolvimento até sistemas de `logging` estruturado em produção.
+A observabilidade é um pilar fundamental para garantir a estabilidade e o bom funcionamento de aplicações em produção. Este módulo aborda a importância da observabilidade, com foco na implementação de logging eficaz em aplicações CAP, permitindo monitorar, diagnosticar e depurar problemas.
 
-## Tópico Abordado
+## Conteúdo
 
-- **Logging: Do Desenvolvimento à Produção (`08.02.01_Logging_Dev_Producao.pdf`)**: Este guia prático explora a API `cds.log()` em profundidade. Aprenda a criar `loggers` com contextos específicos, a controlar os níveis de log (`debug`, `info`, `warn`, `error`) e a configurar o formato da saída para desenvolvimento (colorido e legível) e produção (JSON estruturado), facilitando a integração com ferramentas de análise de logs.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Logging em Desenvolvimento e Produção](./08.02.01_Logging_Dev_Producao.pdf) | [Visualizar](../Infograficos/08.02.01_Logging_Dev_Producao.png) | Um guia detalhado sobre como configurar e gerenciar logs em ambientes de desenvolvimento e produção, garantindo visibilidade e rastreabilidade dos eventos da aplicação. |

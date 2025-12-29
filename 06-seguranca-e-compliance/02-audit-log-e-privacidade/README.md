@@ -1,9 +1,11 @@
-# Módulo 06 (Parte 2): Segurança e Compliance - Audit Log e Privacidade
+# Módulo 06 (Parte 2): Log de Auditoria e Privacidade de Dados
 
-![Infografico - Privacidade de Dados](../Infograficos/06.02.01_Privacidade_de_Dados.png)
+![Infográfico sobre Privacidade de Dados](../Infograficos/06.02.01_Privacidade_de_Dados.png)
 
-Além de controlar quem acessa os dados, é crucial saber quem fez o quê e garantir a privacidade das informações pessoais. Este capítulo aborda as funcionalidades do SAP CAP para registro de auditoria (`audit logging`) e o tratamento de dados sensíveis, em conformidade com regulamentações como a LGPD e GDPR.
+Em um mundo onde a privacidade de dados é fundamental, este módulo aborda a importância do log de auditoria no CAP e como implementar recursos para garantir a privacidade e a conformidade dos dados (GDPR, LGPD).
 
-## Tópico Abordado
+## Conteúdo
 
-- **Privacidade de Dados com SAP CAP (`06.02.01_Privacidade_de_Dados.pdf`)**: Este material explora como o SAP CAP facilita a implementação de requisitos de privacidade de dados. Aprenda a utilizar anotações como `@PersonalData` e `@AuditLog` para classificar dados e automatizar a anonimização e a geração de trilhas de auditoria, simplificando a conformidade regulatória.
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Privacidade de Dados no CAP](./06.02.01_Privacidade_de_Dados.pdf) | [Visualizar](../Infograficos/06.02.01_Privacidade_de_Dados.png) | Discute as melhores práticas para o tratamento de dados pessoais e como o CAP oferece ferramentas para auxiliar na conformidade com regulamentações como GDPR e LGPD. |

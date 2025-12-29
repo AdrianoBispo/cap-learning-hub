@@ -1,25 +1,17 @@
-# Módulo 7: Arquitetura Avançada
+# Módulo 07: Arquitetura Avançada
 
-![Infografico - Extensibilidade no SAP CAP](./Infograficos/07.02.01_Extensibility_Toolkit.png)
+![Infográfico sobre Multitenancy e SaaS](../Infograficos/07.01.01_Multitenancy_Jornada_SaaS.png)
 
-Este módulo explora tópicos que elevam sua aplicação CAP de um projeto padrão para uma solução de software escalável, customizável e pronta para o mercado, como um produto **Software-as-a-Service (SaaS)**.
+Este módulo se aprofunda em conceitos arquiteturais avançados para construir aplicações CAP mais robustas, escaláveis e flexíveis. Ele aborda o desenvolvimento de soluções multitenant (SaaS) e o poderoso modelo de extensibilidade do CAP através de plugins e módulos, permitindo que suas aplicações se adaptem e evoluam com facilidade.
 
-Aqui, você aprenderá a construir aplicações que podem servir múltiplos clientes (tenants) com segurança e a criar uma arquitetura modular e extensível.
+## Tópicos
 
-## Estrutura do Módulo
-
-### 1. [Multitenancy e Aplicações SaaS](./01-multitenancy-saas/README.md)
-
-Transforme sua aplicação em um produto SaaS com o suporte nativo a multitenancy do CAP.
-- **Isolamento de Dados:** Entenda como o CAP, em conjunto com a SAP BTP e o SAP HANA Cloud, provisiona automaticamente um container de banco de dados (HDI container) separado para cada cliente (tenant) que assina a aplicação. Isso garante que os dados de um cliente sejam completamente isolados dos outros.
-- **Provisionamento de Tenants:** O processo é orquestrado pelo serviço *SaaS Provisioning* (saas-registry) na BTP, que, ao receber uma nova assinatura, notifica o *sidecar* de serviços multitenancy (MTX) da sua aplicação para preparar o ambiente do novo tenant, incluindo a implantação do esquema de banco de dados.
-
-### 2. [Plugins e Extensibilidade](./02-plugins-e-extensibilidade/README.md)
-
-Construa aplicações modulares e permita customizações sem alterar o código-fonte principal.
-- **Extensibilidade do Modelo:** O CAP permite estender modelos de dados de forma não invasiva. Use a palavra-chave `extend` para adicionar novos campos a uma entidade existente ou `mixin` para agrupar campos reutilizáveis. Isso é crucial para adaptações específicas de clientes ou para dividir o modelo em múltiplos domínios.
-- **Plugins (`cds-plugin`):** Descubra o ecossistema de plugins do CAP. Ao adicionar um pacote npm que segue a convenção `cds-plugin.js`, você pode injetar funcionalidades adicionais (como logs de auditoria, exportação para Excel, etc.) de forma transparente e reutilizável em seus projetos, sem a necessidade de configuração manual.
+| Tópico | Descrição |
+| :--- | :--- |
+| [**Multitenancy e SaaS**](./01-multitenancy-saas/README.md) | Explora o suporte nativo do CAP para multitenancy, permitindo a construção de aplicações SaaS eficientes e isoladas para múltiplos clientes. |
+| [**Plugins e Extensibilidade**](./02-plugins-e-extensibilidade/README.md) | Aborda a arquitetura de extensibilidade do CAP, mostrando como usar plugins e módulos para customizar e estender funcionalidades sem modificar o código-fonte. |
+| [**Infográficos do Módulo**](./Infograficos/README.md) | Coleção de todos os infográficos e diagramas visuais relacionados a este módulo. |
 
 ---
 
-Dominar estes conceitos de arquitetura avançada é o que permite a construção de soluções empresariais verdadeiramente robustas, que podem crescer em escala para atender múltiplos clientes e se adaptar a novos requisitos de negócio com o mínimo de atrito.
+Dominar estes tópicos é essencial para arquitetar soluções CAP de nível empresarial, prontas para lidar com complexidade e crescimento.

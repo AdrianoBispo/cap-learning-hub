@@ -1,9 +1,11 @@
-# Módulo 07 (Parte 1): Arquitetura Avançada - Multitenancy e SaaS
+# Módulo 07 (Parte 1): Multitenancy e SaaS
 
-![Infografico - Multitenancy e SaaS](../Infograficos/07.02.01_Extensibility_Toolkit.png)
+![Infográfico sobre Multitenancy e SaaS](../Infograficos/07.01.01_Multitenancy_Jornada_SaaS.png)
 
-Este capítulo explora o conceito de `multitenancy`, um dos pilares para a construção de aplicações `Software as a Service (SaaS)`. Com o SAP CAP, desenvolver aplicações multi-inquilino se torna uma tarefa gerenciável e padronizada, permitindo que uma única instância de aplicação sirva múltiplos clientes de forma segura e isolada.
+Aplicações Software-as-a-Service (SaaS) exigem uma arquitetura que suporte múltiplos clientes (locatários) de forma isolada e eficiente. Este módulo explora o poderoso suporte a multitenancy do SAP CAP, permitindo a construção de aplicações SaaS escaláveis e seguras.
 
-## Materiais de Estudo
+## Conteúdo
 
-- **Multitenancy: A Jornada para o SaaS com SAP CAP (`07.01.01_Multitenancy_Jornada_SaaS.pdf`)**: Este guia abrangente detalha a jornada de desenvolvimento de uma aplicação SaaS com SAP CAP. Ele cobre desde os fundamentos do `multitenancy` e o isolamento de dados por inquilino (`tenant`) até a automação do `onboarding` de novos clientes usando as APIs do `SaaS Provisioning Service` (saas-registry).
+| Documento | Infográfico | Descrição |
+| :--- | :--- | :--- |
+| [Multitenancy: A Jornada para SaaS](./07.01.01_Multitenancy_Jornada_SaaS.pdf) | [Visualizar](../Infograficos/07.01.01_Multitenancy_Jornada_SaaS.png) | Um guia completo sobre como projetar, desenvolver e operar aplicações multitenant com CAP, cobrindo tópicos como isolamento de dados, subscrição de locatários e provisionamento. |
