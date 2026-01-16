@@ -50,6 +50,7 @@ Contribuições são bem-vindas! Se você encontrar erros, tiver sugestões de m
 
   ### Tutoriais Oficiais da SAP
   - [Tutorial SAP - Crie um aplicativo de negócios CAP utilizando o VS Code e Nodejs](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
+  - [Tutorial SAP - Desenvolva uma aplicação CAP Full-Stack seguindo o Guia do Desenvolvedor SAP BTP](https://developers.sap.com/group.cap-application-full-stack.html)
   - [Turorial SAP - Como Criar uma Aplicação SAP CAP Full Stack utilizando o BAS, Nodejs e Banco Hana](https://developers.sap.com/mission.hana-cloud-cap.html)
   - [Tutorial SAP - Desenvolva um aplicativo Node.js no SAP BTP Kyma Runtime](https://developers.sap.com/mission.cp-kyma-node-js.html)
   - [Tutorial SAP - Crie um aplicativo com Cloud Foundry Node.js Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-node-create.html)
